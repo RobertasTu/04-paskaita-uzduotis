@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketvirta paskaita. Dizaino struktūros.</title>
+</head>
+<style>
+
+    body {
+        width: 80%;
+        margin: auto;
+    }
+
+    .eilute {
+        width: 100%
+    }
+
+    .puse {
+        width: 50%;
+        float: left;
+    }
+    .trecdalis {
+        width: 33%;
+        float: left;
+    }
+
+    .septyniasdesimt {
+        width: 70%;
+        float: left;
+    }
+
+    .trisdesimt {
+        width: 30%;
+        float: left;
+    }
+
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+
+    }
+    h1 {
+        font-size: 48px;
+        color: yellow;
+    }
+
+    p, span {
+        font-size: 12px;
+        color: grey;
+    }
+
+</style>
+<body>
+
+<!-- 
+    1. Iš GitHub repositorijos pasiimti 01-paskait kodą. 
+2. Atlikti pakeitimus: 
+    2.1 Visą svetainės turinį išcentruoti. Išcentruota svetainė turi užimti 80% ekrano pločio. 
+    2.2 Pakeisti svetainės struktūrą: visa svetainė turi susidėti iš 4 eilučių: 
+        2.2.1 Pirmoje eilutėje stulpelis užimantis 100% eilutės. 
+        2.2.2 Antroje eilutėje du stulpeliai užimantys po 50% eilutės. 
+        2.2.3 Trečioje eilutėje du stulpeliai: vienas užima 70% eilutės, kitas 30% 
+        2.2.4 Ketvirtoje eilutėje 3 vienodo pločio stulpeliai. 
+    2.3. Ankstesnį svetainės turinį(nuotraukas, tekstą) gražiai sutalpinti į stulpelius savo nuožiūra. 
+3. Suformatuoti h1 tag'a taip: teksto dydis 48px, spalva - geltona. 
+4. Suformatuoti visus p, span tagus: teksto dydis 12px, spalva - tamsiai pilka. 
+5. Visos nuotraukos turi būti vienodo dydžio(pasirinkti savo nuožiūra) 
+6. Pridėti sąrašą ir panaikinti sąrašo simbolius. 
+
+Papildoma: 
+1. Savo failą nukopijuokite 2 kartus: viena failą pavadinkite index_flex.html, kitą index_grid.html 
+2. index_flex.html perdaryti taip: visas svetainės išdėstymas turi būti identiškas, tačiau nenaudojant CSS float atributo. Nuoroda: https://www.w3schools.com/html/html_layout.asp Flexbox Layout 
+3. index_grid.html perdaryti pagal Grid logikos reikalavimus. Nuoroda: https://www.w3schools.com/css/css_rwd_grid.asp 
+4. Tiek index_flex.html, tiek index_grid.html failuose, kai ekrano dydis yra mažesnis nei 720px, turi nebelikti stulpelių, o kiekvienas stulpelis pasidaryti eilute. -->
+
+<div class='container'>
+        <div class='eilute'>
+            <h1>Pavadinimas</h1>
+            <h2>Pavadinimas</h2>
+            <h3>Pavadinimas</h3>
+            <h4>Pavadinimas</h4>
+            <h5>Pavadinimas</h5>
+            <h6>Pavadinimas</h6>
+        </div>
+
+        <div class='eilute'>
+            <div class='puse'>                
+            <p>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+            <p>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+            <p>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+            </div>
+            <div class='puse'>
+            <p>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+            <p>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+            <p>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</p>
+            </div>
+        </div>
+
+        <div class='eilute'>
+            <div class='septyniasdesimt'>
+            <span>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</span><br>
+            <span>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</span>
+            </div>
+            <div class='trisdesimt'>
+            <span>Tekstas Tekstas Tekstas Tekstas Tekstas Tekstas</span><br>
+            </div>
+        </div>
+
+        <div class='eilute'>
+            <div class='trecdalis'>
+                <img src='https://www.krugerpark.co.za/images/black-maned-lion-shem-compion-590x390.jpg'><br>
+
+            </div>
+            <div class='trecdalis'>
+                <img src='img/Liuts.webp'>
+                
+            </div>
+            <div class='trecdalis'>
+                <img src='img/Liuts.webp'>
+                
+            </div>
+
+
+
+
+</div>
+
+</div>
+    
+</body>
+</html>
